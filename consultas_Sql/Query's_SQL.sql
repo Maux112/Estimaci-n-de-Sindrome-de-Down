@@ -1,0 +1,1 @@
+INSERT INTO `login_usuario`(`id_login_usuario`, `usuario`, `clave`, `id_medico_fk`, `estado_login_usuario`) VALUES (NULL,'mauro','12345',NULL,0);

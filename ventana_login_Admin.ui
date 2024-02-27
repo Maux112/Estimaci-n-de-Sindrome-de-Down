@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ventana_login</class>
+ <widget class="QMainWindow" name="ventana_login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #0c343d;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> text-decoration: none;font-family: georgia;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #cfe2f3;
+ </string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Usuario :&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_clave_Admin">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>210</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #eceff1;
+border: 1px solid black;
+font-size:14pt; color:#0c343d;
+border-radius: 6px;
+    border: 2px solid #cfe2f3;
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>210</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> text-decoration: none;font-family: georgia;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #cfe2f3;
+ </string>
+    </property>
+    <property name="text">
+     <string>Contraseña :</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Admin_Volver">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>330</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> text-decoration: none;font-family: georgia;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0c343d;
+    background-color: #cfe2f3;
+    border-radius: 6px;
+    border: 2px solid #cfe2f3;</string>
+    </property>
+    <property name="text">
+     <string>Volver</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_usuario_Admin">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>110</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #eceff1;
+border: 1px solid black;
+font-size:14pt; color:#0c343d;;
+border-radius: 6px;
+    border: 2px solid #cfe2f3;font-family: georgia;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Admin_registrar">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> text-decoration: none;font-family: georgia;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #0c343d;
+    background-color: #cfe2f3;
+    border-radius: 6px;
+    border: 2px solid #cfe2f3;</string>
+    </property>
+    <property name="text">
+     <string>Registrar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>-10</y>
+      <width>561</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#fff; font-size:28pt;
+font-family: georgia;
+font-weight: bold;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt;&quot;&gt;INICIO DE SESIÓN- ADMINISTRADOR&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
